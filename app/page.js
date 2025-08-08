@@ -8,8 +8,7 @@ export default function Home() {
   const [scoreHistory, setScoreHistory] = useState([]);
 
   useEffect(() => {
-    // Fetch quiz data from API
-    fetch('http://localhost:4000')
+    fetch('http://localhost:4000/quizzes')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -22,7 +21,6 @@ export default function Home() {
         setQuizzes([]);
       });
 
-    // Load score history from localStorage
     const history = JSON.parse(localStorage.getItem('quizScores') || '[]');
     setScoreHistory(history);
   }, []);
