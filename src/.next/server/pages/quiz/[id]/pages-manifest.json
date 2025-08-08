@@ -1,0 +1,3 @@
+{
+  "/quiz/[id]": "pages/quiz/[id].js"
+}

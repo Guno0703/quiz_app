@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Hp/Desktop/code/GIT_PRGM/quiz_app/app/globals.css"],"sourcesContent":["/*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */\n.flex {\n  display: flex;\n}\n.min-h-screen {\n  min-height: 100vh;\n}\n.w-full {\n  width: 100%;\n}\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n.flex-col {\n  flex-direction: column;\n}\n.items-center {\n  align-items: center;\n}\n.rounded-full {\n  border-radius: calc(infinity * 1px);\n}"],"names":[],"mappings":"AACA;;;;AAGA;;;;AAGA;;;;AAGA;;;;AAGA;;;;AAGA;;;;AAGA","debugId":null}}]
+}

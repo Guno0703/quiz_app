@@ -1,0 +1,30 @@
+/* [project]/app/globals.css [app-client] (css) */
+.flex {
+  display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.rounded-full {
+  border-radius: 3.40282e38px;
+}
+
+/*# sourceMappingURL=app_globals_73c37791.css.map*/
